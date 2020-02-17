@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amazon</title>
+	<style type="text/css">
+.header{
+	style align="center"; 
+
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);}
+</style>
+</head>
+<body>
+	<div class="slideshow"></div>
+		<h1 id ="header"> Deals of the Day</h1>
+
+		<div>
+        <span><img style="border-width:30px;border-color:black; border: solid;" id = "output" alt="image" height=500px width=1250px></span></div>
+         <div >
+        <button class ="prev" onclick="prev()">&#10094;</button>
+        <button class = "next" onclick="next()">&#10095;</button>
+    </div>
+
+
+<script type="text/javascript" src="slider.js"></script>
+</body>
+
+</html>
